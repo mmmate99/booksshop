@@ -65,7 +65,7 @@ $categories = ['Fiction', 'Science', 'History', 'Biography', 'Children'];
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item text-danger" href="logout.php">Kijelentkezés</a></li>
                         </ul>
-                    </div>
+                    </div> 
                 <?php else: ?>
                     <a class="nav-link" href="login.php">Bejelentkezés</a>
                     <a class="nav-link" href="register.php">Regisztráció</a>

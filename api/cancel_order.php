@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         foreach ($order_items as $item) {
             $stmt = $db->prepare("UPDATE books SET stock = stock + ? WHERE id = ?");
             $stmt->execute([$item['quantity'], $item['book_id']]);
-        }
+        } 
         
         echo json_encode([
             'success' => true, 

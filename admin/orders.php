@@ -210,7 +210,7 @@ $statuses = [
                 </div>
             </div>
         </main>
-    </div>
+    </div> 
 </div>
 
 <?php 

@@ -10,7 +10,7 @@ if (isLoggedIn()) {
 } else {
     $_SESSION['cart_count'] = 0;
 }
-?>
+?> 
 
 <?php if (!isset($no_header)): ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

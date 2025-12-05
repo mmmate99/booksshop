@@ -49,7 +49,7 @@ $similar_books = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <img src="<?php echo $book['image']; ?>" 
                      alt="<?php echo htmlspecialchars($book['title']); ?>" 
                      class="img-fluid rounded shadow">
-            </div>
+            </div> 
             
             <div class="col-md-8">
                 <h1 class="display-5 fw-bold"><?php echo htmlspecialchars($book['title']); ?></h1>

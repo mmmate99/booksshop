@@ -21,7 +21,7 @@ $cart_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 if (empty($cart_items)) {
     redirect('cart.php');
-}
+} 
 
 // Felhasználó adatainak lekérése
 $stmt = $db->prepare("SELECT * FROM users WHERE id = ?");

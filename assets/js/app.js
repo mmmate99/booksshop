@@ -23,7 +23,7 @@ function showToast(type, title, message) {
         if (alert) {
             alert.remove();
         }
-    }, 5000);
+    }, 5000); 
 }
 
 // AJAX kérések

@@ -24,7 +24,7 @@ $low_stock_books = $db->query("
     WHERE stock <= 5 AND stock > 0 
     ORDER BY stock ASC 
     LIMIT 5
-")->fetchAll(PDO::FETCH_ASSOC);
+")->fetchAll(PDO::FETCH_ASSOC); 
 ?>
 
 <div class="container-fluid">

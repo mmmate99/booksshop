@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             http_response_code(400);
             echo json_encode(['error' => 'A könyv jelenleg nincs raktáron']);
             exit;
-        }
+        } 
         
         // Ellenőrizzük, hogy már van-e a kosárban
         $stmt = $db->prepare("SELECT * FROM cart WHERE user_id = ? AND book_id = ?");

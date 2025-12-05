@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         if (!empty($category)) {
             $query .= " AND category = ?";
             $params[] = $category;
-        }
+        } 
         
         // Összes találat száma
         $countStmt = $db->prepare(str_replace('*', 'COUNT(*)', $query));

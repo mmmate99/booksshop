@@ -26,7 +26,7 @@ if ($is_localhost) {
 // Adatbázis kapcsolat létrehozása
 function getDB() {
     static $db = null;
-    if ($db === null) {
+    if ($db === null) { 
         try {
             $db = new PDO(
                 "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8",

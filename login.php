@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 if (isLoggedIn()) {
     redirect('index.php');
 }
-?>
+?> 
 <!DOCTYPE html>
 <html lang="hu">
 <head>

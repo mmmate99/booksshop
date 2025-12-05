@@ -110,7 +110,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                     </div>
                 </div>
-                
+                 
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">

@@ -97,7 +97,7 @@ $status_classes = [
                 <li class="breadcrumb-item"><a href="orders.php">Rendeléseim</a></li>
                 <li class="breadcrumb-item active">Rendelés #<?php echo $order['order_number']; ?></li>
             </ol>
-        </nav>
+        </nav> 
 
         <?php if (isset($message)): ?>
         <div class="alert alert-success alert-dismissible fade show">

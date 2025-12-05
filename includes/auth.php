@@ -19,7 +19,7 @@ function login($email, $password) {
 
 // Regisztráció
 function register($name, $email, $password) {
-    $db = getDB();
+    $db = getDB(); 
     
     // Ellenőrizzük, hogy létezik-e már a felhasználó
     $stmt = $db->prepare("SELECT id FROM users WHERE email = ?");

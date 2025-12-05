@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $db = getDB();
     $user_id = $_SESSION['user_id'];
     
-    try {
+    try { 
         if ($quantity === 0) {
             // Elem eltávolítása
             $stmt = $db->prepare("DELETE FROM cart WHERE user_id = ? AND book_id = ?");

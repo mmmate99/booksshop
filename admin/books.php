@@ -332,6 +332,6 @@ include __DIR__ . '/../includes/footer.php';
         bookModal.show();
     });
 </script>
-<?php endif; ?>
+<?php endif; ?> 
 </body>
 </html>

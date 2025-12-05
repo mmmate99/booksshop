@@ -20,7 +20,7 @@
                         <li class="mb-2"><a href="orders.php" class="text-white-50 text-decoration-none">Rendeléseim</a></li>
                     <?php endif; ?>
                 </ul>
-            </div>
+            </div> 
             <div class="col-md-4">
                 <h5 class="mb-3">Kapcsolat</h5>
                 <p class="mb-2"><i class="bi bi-envelope me-2"></i> info@konyvesbolt.hu</p>

@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if ($password !== $confirm_password) {
         $errors[] = 'A jelszavak nem egyeznek!';
-    }
+    } 
     
     if (empty($errors)) {
         if (register($name, $email, $password)) {
